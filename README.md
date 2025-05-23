@@ -49,6 +49,7 @@ models = [
             "amazon.titan-text-express-v1"
         ]
 
+```
 # EC2 Configuration Requirements
 1. Ensure your EC2 instance has an instance profile attached with the necessary Bedrock permissions. See permissions above 
 2. Configure your EC2 security group to allow inbound traffic:
