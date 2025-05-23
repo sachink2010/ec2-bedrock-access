@@ -46,12 +46,14 @@ You can view your app on :
 http://[Your EC2 Public IP]:8501/
 ```
 
-5. Change Models available: Based on your organization:
+5. Change Models available: In streamlit_app.py file, you can change the models based on your organization's requirements:
 ```
 models = [
             "anthropic.claude-v2",
             "anthropic.claude-instant-v1",
-            "amazon.titan-text-express-v1"
+            "amazon.titan-text-express-v1",
+            ....your models....
+
         ]
 
 ```
