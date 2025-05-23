@@ -41,6 +41,13 @@ pip install -r requirements.txt
 ``` 
 streamlit run streamlit_app.py --server.port 8501
 ```
+5. Change Models available: Based on your organization:
+```
+models = [
+            "anthropic.claude-v2",
+            "anthropic.claude-instant-v1",
+            "amazon.titan-text-express-v1"
+        ]
 
 # EC2 Configuration Requirements
 1. Ensure your EC2 instance has an instance profile attached with the necessary Bedrock permissions. See permissions above 
