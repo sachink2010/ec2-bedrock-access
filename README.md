@@ -41,7 +41,10 @@ pip install -r requirements.txt
 ``` 
 streamlit run streamlit_app.py --server.port 8501
 ```
-You can view your app on : http://[Your EC2 Public IP]:8501/
+You can view your app on : 
+```
+http://[Your EC2 Public IP]:8501/
+```
 
 5. Change Models available: Based on your organization:
 ```
