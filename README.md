@@ -24,7 +24,7 @@ This is a Streamlit application that allows users to interact with various found
 # Setup Instructions
 1. Clone this repository on your EC2 instance:
 ```
-git clone &lt;repository-url&gt;
+git clone https://github.com/sachink2010/ec2-bedrock-access/
 cd ec2-streamlit
 ```
 2. Create and activate a virtual environment:
