@@ -26,16 +26,16 @@ This is a Streamlit application that allows users to interact with various found
 ```
 git clone &lt;repository-url&gt;
 cd ec2-streamlit
-
+```
 2. Create and activate a virtual environment:
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 3. Install dependencies:
 
 ``` pip install -r requirements.txt
-
+```
 4. Run the application:
 ``` streamlit run streamlit_app.py --server.port 8501
-
+```
