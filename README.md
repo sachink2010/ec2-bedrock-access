@@ -43,7 +43,7 @@ streamlit run streamlit_app.py --server.port 8501
 ```
 
 # EC2 Configuration Requirements
-Ensure your EC2 instance has an instance profile attached with the necessary Bedrock permissions
-Configure your EC2 security group to allow inbound traffic:
+1. Ensure your EC2 instance has an instance profile attached with the necessary Bedrock permissions. See permissions above 
+2. Configure your EC2 security group to allow inbound traffic:
 - Port 8501 (Streamlit default port)
 - Source: Your IP address or appropriate CIDR range
