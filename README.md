@@ -1,4 +1,4 @@
-# Amazon Bedrock Streamlit Chat Application
+# Amazon Bedrock Streamlit Chat Applicationon EC2 
 
 This is a Streamlit application that allows users to interact with various foundation models available through Amazon Bedrock using EC2 instance profile authentication.
 
