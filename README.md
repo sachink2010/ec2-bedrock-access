@@ -34,8 +34,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 3. Install dependencies:
 
-``` pip install -r requirements.txt
+``` 
+pip install -r requirements.txt
 ```
 4. Run the application:
-``` streamlit run streamlit_app.py --server.port 8501
+``` 
+streamlit run streamlit_app.py --server.port 8501
 ```
+
+# EC2 Configuration Requirements
+Ensure your EC2 instance has an instance profile attached with the necessary Bedrock permissions
+Configure your EC2 security group to allow inbound traffic:
+- Port 8501 (Streamlit default port)
+- Source: Your IP address or appropriate CIDR range
